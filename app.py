@@ -14,7 +14,7 @@ st.markdown("*Ứng dụng mô hình Deep Learning LSTM hỗ trợ ra quyết đ
 @st.cache_resource
 def load_resources():
     scaler = joblib.load('scaler_hoho.pkl')
-    model = load_model('Best_LSTM_Model.keras')
+    model = load_model('Best_LSTM_Model.keras', compile=False)
     return scaler, model
 
 scaler, model = load_resources()
