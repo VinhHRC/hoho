@@ -6,7 +6,7 @@ import joblib
 
 st.set_page_config(page_title="Dự báo lũ hồ Hố Hô", layout="wide")
 
-st.title("🌊 Hệ Thống Dự Báo Lưu Lượng Đến Hồ Thủy Điện Hố Hô (48 Giờ)")
+st.title("🌊 Dự báo Lưu lượng đến hồ Thủy điện Hố hô (48 Giờ)")
 st.markdown("*Ứng dụng Deep Learning LSTM dự báo đỉnh lũ đa thời đoạn kèm độ tin cậy*")
 st.markdown("*Hoàng Đức Vinh - Phòng TNTĐQG về động lực học sông biển - Viện KH Thủy lợi VN*")
 
