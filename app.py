@@ -11,6 +11,7 @@ st.set_page_config(page_title="Dự báo lũ hồ Hố Hô (Google Drive Sync)",
 st.title("🌊 Dự báo Lưu lượng đến hồ Thủy điện Hố hô (48 Giờ)")
 st.markdown("*Ứng dụng Deep Learning LSTM dự báo đỉnh lũ đa thời đoạn kèm độ tin cậy*")
 st.markdown("*Hoàng Đức Vinh - Phòng TNTĐQG về động lực học sông biển - Viện KH Thủy lợi VN*")
+st.markdown("*Liên hệ: Phone/Zalo: 0906682672   Email: Vinhhrc@gmail.com*")
 
 # --- 1. CÁC HÀM TÍNH TOÁN LSTM THUẦN NUMPY ---
 def sigmoid(x):
