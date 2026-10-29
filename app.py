@@ -174,7 +174,7 @@ if df_input is not None:
     lower_bound = np.clip(pred_actual - uncertainty, 0, None)
     
     # Biểu đồ
-    st.subheader("📈 Biểu Đồ Thủy Kế Thực Đo & Dự Báo 48 Giờ Kèm Dải Tin Cậy")
+    st.subheader("📈 Biểu đồ Lưu lượng thực đo & Dự báo 48 giờ tới")
     fig = go.Figure()
     
     fig.add_trace(go.Scatter(
